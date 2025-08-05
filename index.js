@@ -64,10 +64,10 @@ app.get("/", (_, res) => {
          justify-content: space-between;
          align-items: center;
          padding: 2rem;
-         background: rgba(255, 255, 255, 0.05); /* Light transparent white */
+         background: rgba(255, 255, 255, 0.05); 
          backdrop-filter: blur(12px);
          -webkit-backdrop-filter: blur(12px); /* Safari support */
-         border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Optional: subtle bottom border */
+         border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
        }
 
         .logo {
@@ -93,7 +93,7 @@ app.get("/", (_, res) => {
           display: flex;
           flex-direction: row;
           align-items: center;
-          justify-content: space-between; /* pushes text left, image right */
+          justify-content: space-between; 
           padding: 5rem 4rem;
           flex-wrap: wrap;
           gap: 2rem;
@@ -101,7 +101,7 @@ app.get("/", (_, res) => {
 
         .hero-text {
           max-width: 500px;
-          flex: 1; /* Allow it to take more horizontal space */
+          flex: 1; 
         }
         .hero-image {
           position: absolute;
